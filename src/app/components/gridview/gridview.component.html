@@ -1,0 +1,11 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Scripts ---------->
+<div class="container">
+  <div id="products" class="row view-group">
+
+      <app-gridcard class="item col-xs-4 col-lg-4" *ngFor='let dish of dishes' [dish]='dish'></app-gridcard>
+
+  </div>
+</div>

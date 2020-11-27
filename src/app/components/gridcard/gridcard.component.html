@@ -1,0 +1,21 @@
+
+<div class="thumbnail card">
+  <div class="img-event">
+    <img class="group list-group-image img-fluid imageuwu" [src]="dish.image" alt="" />
+  </div>
+  <div class="caption card-body">
+    <h4 class="group card-title inner list-group-item-heading">
+      {{dish.name}}</h4>
+    <p class="group inner list-group-item-text">
+      {{dish.description}}</p>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <p class="lead">
+          $ {{dish.price}}</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <a class="btn btn-success" href="#">Agregar al carrito</a>
+      </div>
+    </div>
+  </div>
+</div>
